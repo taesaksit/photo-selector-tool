@@ -21,8 +21,17 @@
 
 
 ---
-## 📦 Requirements
-ติดตั้ง library ที่จำเป็นก่อนใช้งาน:
 
+## 🚀 Installation Guide
+
+### **macOS / Linux**
 ```bash
+python3 -m venv venv
 pip install -r requirements.txt
+source venv/bin/activate
+
+### **Windows**
+```bash
+python3 -m venv venv
+pip install -r requirements.txt
+venv\Scripts\activate
